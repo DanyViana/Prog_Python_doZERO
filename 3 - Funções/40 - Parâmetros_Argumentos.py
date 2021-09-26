@@ -29,8 +29,8 @@ def cliente1(nome):
 def cliente2(nome):
     return f'Olá {nome}'
 
-x = cliente1('Maria')
+# x = cliente1('Maria') #Coloquei como comentário porque fica apontando o erro
 y = cliente2('José')
 
-print(x) #Retorna como 'none' pois a função print só realiza uma tarefa - retorna um valor na tela, mas no programa em si não retorna nada
+# print(x) #Retorna como 'none' pois a função print só realiza uma tarefa - retorna um valor na tela, mas no programa em si não retorna nada
 print(y) #A função return calcula e retorna um valor (fica armazenado)
