@@ -4,7 +4,7 @@ cores_list = ['amarelo', 'verde', 'azul', 'vermelho']
 
 cores_tuples = ('amarelo', 'verde', 'azul', 'vermelho')
 
-# Quase tudo o que você faz com uma lista você faz com uam tuple
+# Quase tudo o que você faz com uma lista você faz com uma tuple
 
 print(type(cores_list))
 print(type(cores_tuples))
