@@ -34,6 +34,8 @@ set1={'a','b','c'}
 set2={'a','d','e'}
 set3={'c','d','f'}
 
+#Utilizando os sets com funções:
+
 set4=set1.union(set2) #Faz a unificação do set1 com o set2
 print(set4) #Remove os duplicados
 
@@ -43,5 +45,5 @@ print(set5)
 set6=set1.intersection(set2) #O que tem no set1 e tem também no set2, é a interseção
 print(set6)
 
-set7=set1.symmetric_difference(set3) #Retira o duplicado e todos os iguais entr
-prin
+set7=set1.symmetric_difference(set3) #Retira o duplicado e todos os iguais entre esses dois sets
+print(set7)
