@@ -29,6 +29,4 @@ print(aluno.get('materias'))
 
 print(len(aluno)) #Retorna ao número de keys que tem no dicionário
 
-print(aluno.items())
-print(aluno.keys())
-print(aluno.values())
+#
