@@ -14,3 +14,19 @@ print(frutas2)
 frutas3 = [iten for iten in frutas1 if 'b' in iten]
 
 print(frutas3)
+
+# Com números:
+
+valores = []
+
+for x in range(6):
+    valores.append(x*10)
+
+print(valores)
+
+# Esse mesmo resultado em uma única linha de código: 
+
+valores2 = [x*10 for x in range(6)]
+
+print(valores2)
+ 
